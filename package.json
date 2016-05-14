@@ -11,17 +11,12 @@
     "lib"
   ],
   "scripts": {
-    "postinstall": "node lib/install.js",
-    "test": "npm run postinstall && node test.js"
+    "postinstall": "node lib/install.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bin-wrapper": "^3.0.2",
     "logalot": "^2.1.0"
-  },
-  "devDependencies": {
-    "ava": "^0.14.0",
-    "bin-check": "^3.0.0"
   }
 }
