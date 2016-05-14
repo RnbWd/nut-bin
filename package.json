@@ -1,0 +1,23 @@
+{
+  "name": "nut-bin",
+  "version": "0.1.0",
+  "description": "",
+  "bin": {
+    "nut": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "lib"
+  ],
+  "scripts": {
+    "postinstall": "node lib/install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bin-wrapper": "^3.0.2",
+    "logalot": "^2.1.0"
+  }
+}
