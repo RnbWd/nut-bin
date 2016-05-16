@@ -20,6 +20,6 @@ Nut is in early stage of development. It has been tested on Ubuntu and on MacOS 
 
 Check the [wiki](https://github.com/matthieudelaro/nut/wiki) to read some tutorials (GPU support, Caffe, TensorFlow, etc).
 
-Full documentation can found in the main repository - https://github.com/matthieudelaro/nut
+Full documentation can found in the [main repository](https://github.com/matthieudelaro/nut)
 
 MIT
