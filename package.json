@@ -11,12 +11,21 @@
     "lib"
   ],
   "scripts": {
+    "test": "npm run postinstall && ava",
     "postinstall": "node lib/install.js"
   },
-  "author": "",
+  "author": {
+    "name": "David Wisner",
+    "email": "dwisner6@gmail.com",
+    "url": "rnbwd.com"
+  },
   "license": "ISC",
   "dependencies": {
     "bin-wrapper": "^3.0.2",
     "logalot": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "bin-check": "^3.0.0"
   }
 }
