@@ -1,12 +1,12 @@
 language: nodejs
 node_js:
-  - "6"
-  - "5"
-  - "4"
-  - "0.12"
-  - "0.10"
-  os:
-  - linux
-  - osx
+  "6"
+  "5"
+  "4"
+  "0.12"
+  "0.10"
+os:
+  "linux"
+  "osx"
 script:
   npm test
