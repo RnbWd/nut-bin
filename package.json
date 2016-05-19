@@ -1,6 +1,6 @@
 {
   "name": "nut-bin",
-  "version": "0.1.2",
+  "version": "0.1.2-linux",
   "description": "",
   "bin": {
     "nut": "cli.js"
