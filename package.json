@@ -14,6 +14,10 @@
     "test": "npm run postinstall && ava",
     "postinstall": "node lib/install.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rnbwd/vault-bin.git"
+  },
   "author": {
     "name": "David Wisner",
     "email": "dwisner6@gmail.com",
