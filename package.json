@@ -23,7 +23,7 @@
     "email": "dwisner6@gmail.com",
     "url": "rnbwd.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bin-wrapper": "^3.0.2",
     "logalot": "^2.1.0"

@@ -2,6 +2,9 @@
 
 > Binary wrapper for [nut](https://matthieudelaro.github.io/nut/) - docker cli tool
 
+[![Travis](https://img.shields.io/travis/RnbWd/nut-bin.svg?style=flat-square)](https://travis-ci.org/RnbWd/nut-bin)
+![License](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)
+
 ## How to install
 
     $ npm install -g nut-bin
