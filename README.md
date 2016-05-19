@@ -5,9 +5,12 @@
 [![Travis](https://img.shields.io/travis/RnbWd/nut-bin.svg?style=flat-square)](https://travis-ci.org/RnbWd/nut-bin)
 ![License](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)
 
-## How to install
+## How to install for windows / osx
 
     $ npm install -g nut-bin
+
+## how to install for linux
+  $ npm install -g nut-bin@0.1.2-linux
 
 ## Nut
 **Nut** is a command line tool which offers a solution to common frustrations of developers. It hides the complexity of development environments, and extends them with customizable macros. Whether you develop in Swift, Go, Java, or C++, what you need is build/run/test the app. So just do it:
