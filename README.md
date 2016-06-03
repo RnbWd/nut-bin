@@ -7,20 +7,18 @@ nut-bin
 [![npm](https://img.shields.io/npm/v/nut-bin.svg?style=flat-square)](https://www.npmjs.com/package/nut-bin)
 ![License](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)
 
-## How to install for windows / osx / linux
+> Nut: the development environment, containerized.
+
+## Installation
 
     $ npm install -g nut-bin
-
-## Info
-
-Full documentation can found in the main repo: https://github.com/matthieudelaro/nut
-
-> Nut: the development environment, containerized.
 
     $ nut --init # create nut.yml file (equivalent of package.json for npm)
     $ nut build
     $ nut run
     $ nut test
+
+Full documentation can found in the main repo: https://github.com/matthieudelaro/nut
 
 **Nut** mounts the current folder in a [Docker](https://www.docker.com/) container, and executes commands on your behalf, according to the project configuration. The configuration is read from `nut.yml` file, in the current folder. You can choose the Docker image to use, declare volumes to mount, and define commands (called macros) such as *build*, *run*, and *test*.
 
